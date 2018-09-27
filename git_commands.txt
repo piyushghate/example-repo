@@ -1,0 +1,17 @@
+git clone <https address> <optional client folder>	|| clone the master to client folder
+
+git status					|| status of the git
+
+git add <filename>			|| add the changes to the git to commit
+
+git commit -m "message"		|| commit the changes which would later pushed to master
+
+git push origin master		|| push the changes to master
+
+git diff <filename>			|| see the changes made in the file
+
+git log						|| see the git logs
+
+git checkout <log_number>	|| to roll to the log number changes in the file
+
+git checkout master			|| to recover to the master
