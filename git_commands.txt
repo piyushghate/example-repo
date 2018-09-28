@@ -25,3 +25,16 @@ alias graph="git log --all --decorate --oneline --graph"  || to create alias for
 git branch <branch name>   || create branch
 
 git branch		|| shows all the branchs
+
+git diff master..<branch>		|| this will show the difference between the branchs
+
+git merge <branch>				|| fast forward merge
+
+git branch --merged				|| shows the merged branch
+
+git branch -d <branch>			|| delete merged branch
+
+git branch -D <branch>			|| force delete without merge
+
+
+
