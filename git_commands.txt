@@ -15,3 +15,11 @@ git log						|| see the git logs
 git checkout <log_number>	|| to roll to the log number changes in the file
 
 git checkout master			|| to recover to the master
+
+git log --all --decorate --oneline --graph		|| shows graph of head and master pointer
+
+alias graph="git log --all --decorate --oneline --graph"  || to create alias for long commands
+
+git branch <branch name>   || create branch
+
+git branch		|| shows all the branchs
